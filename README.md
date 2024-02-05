@@ -33,7 +33,7 @@ docker-compose up
 npm run test:watch
 
 ### Screenshoots
-![alt text](https://github.com/renfert/generateToken/tree/master/screenshots/screen1.png?raw=true)
-![alt text](https://github.com/renfert/generateToken/tree/master/screenshots/screen2.png?raw=true)
-![alt text](https://github.com/renfert/generateToken/tree/master/screenshots/screen3.png?raw=true)
-![alt text](https://github.com/renfert/generateToken/tree/master/screenshots/screen4.png?raw=true)
+![alt text](https://github.com/renfert/generateToken/blob/master/screenshots/screen1.png?raw=true)
+![alt text](https://github.com/renfert/generateToken/blob/master/screenshots/screen2.png?raw=true)
+![alt text](https://github.com/renfert/generateToken/blob/master/screenshots/screen3.png?raw=true)
+![alt text](https://github.com/renfert/generateToken/blob/master/screenshots/screen4.png?raw=true)
