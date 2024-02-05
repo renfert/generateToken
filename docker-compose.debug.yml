@@ -3,6 +3,8 @@ version: '3.4'
 services:
   nestdockerapp:
     image: nestdockerapp
+    env_file: 
+      - .env
     build:
       context: .
       target: development

@@ -1,4 +1,4 @@
-FROM node:12.13-alpine As development
+FROM node:16.18-alpine As development
 WORKDIR /usr/src/app
 COPY package*.json ./
 COPY .npmrc ./
@@ -7,7 +7,7 @@ COPY . .
 RUN npm install --save glob
 RUN npm run build
 
-FROM node:12.13-alpine as production
+FROM node:16.18-alpine as production
 
 LABEL AUHTOR="Renato Tejada"
 
