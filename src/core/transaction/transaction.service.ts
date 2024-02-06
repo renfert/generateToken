@@ -88,10 +88,8 @@ export class TransactionService {
       let jsonObject = JSON.parse(data);
 
       delete jsonObject['cvv'];
-      console.log('data', jsonObject)
       return jsonObject;
     } else {
-      console.log('decode', decode)
 
       return decode;
     }
